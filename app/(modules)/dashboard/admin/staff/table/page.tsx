@@ -11,7 +11,7 @@ import { StaffDemoData } from "@/app/data";
 
 
 
-const StaffTablePage: React.FC<{ data?: IUser[] }> = ({ data }) => {
+const StaffTablePage = () => {
 
     const [datas, setDatas] = useState([])
     const [isDrawerOpen, setDrawerOpen] = useState(false);

@@ -29,7 +29,6 @@ const AccountantFormValues = Yup.object().shape({
         .min(8, 'Password too short!')
         .required('Required'),
     confirmPassword: Yup.string()
-        .oneOf([Yup.ref('password'), null], 'Passwords must match')
         .required('Required'),
 });
 

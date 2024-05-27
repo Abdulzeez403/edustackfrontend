@@ -12,7 +12,7 @@ import { TableComponent } from "../../admin/components/table/datatable";
 
 
 
-const SessionsPage: React.FC<{ data?: IRole[] }> = ({ data }) => {
+const SessionsPage = () => {
 
     const [datas, setDatas] = useState([])
     const [isDrawerOpen, setDrawerOpen] = useState(false);
